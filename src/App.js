@@ -6,6 +6,8 @@ import Navigation from './Pages/Shared/Navigation/Navigation';
 import AuthProvider from './context/AuthProvider';
 import About from './Pages/About/About';
 import NotFound from './Pages/NotFound/NotFound';
+import Blogs from './Pages/Blogs/Blogs';
+import Contact from './Pages/Contact/Contact';
 
 
 function App() {
@@ -23,6 +25,12 @@ function App() {
             </Route>
             <Route path="/about">
               <About></About>
+            </Route>
+            <Route path="/blogs">
+              <Blogs></Blogs>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
             </Route>
             <Route path="*">
               <NotFound></NotFound>

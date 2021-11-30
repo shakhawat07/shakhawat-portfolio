@@ -14,9 +14,8 @@ const Home = () => {
 
     return (
         <div className="bg-black container-fluid">
-
             <div className='row mx-5'>
-                <div className="col-12 col-sm-12 col-md-12 col-lg-6 gx-5">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-7 gx-5">
                     <h2 className="text-white mt-5 fw-lighter">Hello, I'm</h2>
                     <h2 className="text-white">Md. Shakhawat</h2>
                     <h2 className="text-white mb-3">Hossain Mridha</h2>
@@ -45,7 +44,7 @@ const Home = () => {
 
                     </a>
                 </div>
-                <div className="col-12 col-sm-12 col-md-12 col-lg-6 mt-5">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-5 mt-5">
                     <img style={{ width: '300px', height: '300px' }} className="img-fluid rounded-circle m-3" src={Shakhawat} alt="" />
                 </div>
 

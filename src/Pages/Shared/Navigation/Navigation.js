@@ -22,7 +22,7 @@ const Navigation = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="d-flex align-items-end justify-content-end me-auto ms-5">
+                    <Nav className="d-flex align-items-end justify-content-end m-auto">
                         <NavLink className="nav"
                             // activeStyle={activeStyle}
                             to="/home">Home
