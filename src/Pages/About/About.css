@@ -1,0 +1,14 @@
+.about-container{
+    /* margin-left: 1rem; */
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.about-container img{
+    border: 0.25rem solid white;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+.about-container img:hover{
+    transform: scale(0.95);
+}
