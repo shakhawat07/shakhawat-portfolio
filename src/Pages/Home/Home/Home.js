@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import { useRef } from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import Shakhawat from './../../../images/Shakhawat.jpg'
 import { useSpring, animated } from 'react-spring'
 import ProjectsHome from '../ProjectsHome/ProjectsHome'
+import Skills from '../Skills/Skills';
 
 const Home = () => {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        fetch('/projectsData.json')
+            .then(res => res.json())
+            .then(data => setProjects(data));
+    }, []);
     const n = useRef(0)
     const styles = useSpring({
         loop: () => 3 > n.current++,
@@ -53,8 +61,30 @@ const Home = () => {
             <hr className="bg-warning mt-5" />
             <h1 className="my-3 text-center text-warning">Recent Projects</h1>
             <hr className="bg-warning" />
-            <ProjectsHome></ProjectsHome>
+            {/* projects home  */}
+            <div className="container-fluid service-container">
+                {/* <h1 className="text-center mt-5 fw-bold">Our <span className="text-primary">Projects</span></h1> */}
+                <hr />
+                <div className="row p-5">
+                    {
+                        projects.map(project =>
+                            <ProjectsHome
+                                key={project.id}
+                                project={project}
+                            ></ProjectsHome>
+                        )
+                    }
+                </div>
+            </div>
             <hr className="bg-warning mt-5" />
+            <h1 className="my-3 text-center text-warning">My Blogs</h1>
+
+            <hr className="bg-warning" />
+            {/* skills home  */}
+            {/* <h1 className="my-3 text-center text-white">Coming Soon</h1> */}
+            <Skills></Skills>
+            <hr className="bg-warning mt-5" />
+
 
             {/* <animated.div
                 style={{

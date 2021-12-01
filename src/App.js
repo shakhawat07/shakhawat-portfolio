@@ -8,6 +8,8 @@ import About from './Pages/About/About';
 import NotFound from './Pages/NotFound/NotFound';
 import Blogs from './Pages/Blogs/Blogs';
 import Contact from './Pages/Contact/Contact';
+import Projects from './Pages/Projects/Projects';
+import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
 
 
 function App() {
@@ -22,6 +24,12 @@ function App() {
             </Route>
             <Route exact path="/home">
               <Home></Home>
+            </Route>
+            <Route path="/projects">
+              <Projects></Projects>
+            </Route>
+            <Route path="/project/:projectId">
+              <ProjectDetails></ProjectDetails>
             </Route>
             <Route path="/about">
               <About></About>

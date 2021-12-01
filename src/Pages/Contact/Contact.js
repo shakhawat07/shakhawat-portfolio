@@ -20,9 +20,12 @@ const Contact = () => {
 
             <div className="d-flex flex-column justify-content-center align-items-center pt-5">
                 <h1 className="text-warning">Contact Info</h1>
-                <p><span className="text-warning">Email: </span>shakhawathossainmridha@gmail.com</p>
-                <p><span className="text-warning">GitHub: </span>https://github.com/shakhawat07</p>
-                <p><span className="text-warning">LinkedIn: </span>https://www.linkedin.com/in/shakhawat-hossain-mridha-4450b8219/</p>
+                <div>
+                    <p><span className="text-warning">Email: </span>shakhawathossainmridha@gmail.com</p>
+                    <p><span className="text-warning">GitHub: </span>https://github.com/shakhawat07</p>
+                    <p><span className="text-warning">LinkedIn: </span>https://www.linkedin.com/in/shakhawat-hossain-mridha-4450b8219/</p>
+                </div>
+
             </div>
 
             <form ref={form} onSubmit={sendEmail}>

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 101,
+        "name": "Bicycle Emporium",
+        "description": "Bicycle Emporium was opened in October 2010. Back then we were riders. Recreational cycling was something that hadn't yet become mainstream in dhaka, and there were no shop addressing biker's need . Yes, there were shops selling bikes, but with every visit to the local bike store, we realized how discouraging an interaction could be. In time, our frustration became the motivation to open a bike shop which will be honest to customer and their needs, give professional support and service and which will encourage people to try and take up bicycling as a way of life. Our focus was solving the problems that we our self have faced as customer. With the purchase of every bicycle, you will receive 6 months of servicing free. We also have our weekly rides to help you enjoy the whole experience .Our monthly tech sessions are designed to make you more hands on.",
+        "technologyUsed": "HTML, CSS, Bootstrap, React, Node.js, Express.js, MongoDB",
+        "githubClient": "https://github.com/shakhawat07/bicycle-emporium-client",
+        "githubServer": "https://github.com/shakhawat07/bicycle-emporium-server",
+        "liveSite": "https://bicycle-emporium.web.app/",
+        "img1": "https://i.ibb.co/sJvJC5t/bicycle-emporium-full-Home.png",
+        "img2": "https://i.ibb.co/F8VvzRt/bicycle-emporium2.png",
+        "img3": "https://i.ibb.co/pQPLq7q/bicycle-emporium3.png"
+    },
+    {
+        "id": 102,
+        "name": "Tour De Planer Earth",
+        "description": "our De Planet Earth is a travel advisor agency which is dedicated to helping the clients organize and plan their travel, always doing our utmost to provide 100% customer satisfaction. We have personal knowledge of destinations around the world. In addition, anywhere in the world you want to go, we have specialists there that assist us plan the perfect itinerary! We want to insure that all aspects of a trip are a good fit for our clients. To that end, we are resolute in totally understanding the goals, objectives and budgets of our clients so we can present them with multiple alternatives for fun, educational and relaxing travel.",
+        "technologyUsed": "HTML, CSS, Bootstrap, React, Node.js, Express.js, MongoDB",
+        "githubClient": "https://github.com/shakhawat07/tour-de-planet-earth-client",
+        "githubServer": "https://github.com/shakhawat07/tour-de-planet-earth-server",
+        "liveSite": "https://tour-de-planet-earth-client.web.app/",
+        "img1": "https://i.ibb.co/cLCMnKF/tour-de-planet-earth-full-Home.png",
+        "img2": "https://i.ibb.co/8xZ7hGJ/tour-de-planet-earth2.png",
+        "img3": "https://i.ibb.co/B2W5mxZ/tour-de-planet-earth3.png"
+    },
+    {
+        "id": 103,
+        "name": "sCare Bangladesh",
+        "description": "Our sCare Bangladesh provide nutritional counseling, social work services, and recreational activities, as well as respite care, hospice care, and end-of-life care. We have in-house pharmacies as well as diagnostics such as laboratory services, radiology services in their facility. We mostly contract with programs in the community for these services. Care is tailored to what is needed based on state of health and skilled care needs. We serve the needs and requirements of senior citizens. Our service encompasses assisted living, adult daycare, long-term care, nursing homes (often called residential care), hospice care, and home care.",
+        "technologyUsed": "HTML, CSS, Bootstrap, React",
+        "githubClient": "https://github.com/shakhawat07/senior-care-bangladesh",
+        "githubServer": "https://github.com/shakhawat07/senior-care-bangladesh",
+        "liveSite": "https://scare-bangladesh.web.app/",
+        "img1": "https://i.ibb.co/52m68mj/scare-bangladesh-full-Home.png",
+        "img2": "https://i.ibb.co/R0Lrb2N/scare-bangladesh2.png",
+        "img3": "https://i.ibb.co/GnXn0RG/scare-bangladesh3.png"
+    }
+]
