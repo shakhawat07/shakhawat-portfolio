@@ -3,6 +3,7 @@ import { useRef } from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import Shakhawat from './../../../images/Shakhawat.jpg'
 import { useSpring, animated } from 'react-spring'
+import ProjectsHome from '../ProjectsHome/ProjectsHome'
 
 const Home = () => {
     const n = useRef(0)
@@ -49,6 +50,12 @@ const Home = () => {
                 </div>
 
             </div>
+            <hr className="bg-warning mt-5" />
+            <h1 className="my-3 text-center text-warning">Recent Projects</h1>
+            <hr className="bg-warning" />
+            <ProjectsHome></ProjectsHome>
+            <hr className="bg-warning mt-5" />
+
             {/* <animated.div
                 style={{
                     width: 80,
